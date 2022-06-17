@@ -1,6 +1,6 @@
 <?php
 
-class prueba {
+class contactos {
     
     public function FunctionName1($var = null)
     {
@@ -35,9 +35,11 @@ class prueba {
 
 }
 
-$clase = new prueba;
-$uno = $clase->FunctionName1('Algo', Null);
+$clase = new contactos;
+
+$uno = $clase->FunctionName1('Algo');
 $dos = $clase->FunctionName2(0, 234);
-$tres = $clase->FunctionName3("Uno", "Dos");
+$tres = $clase->FunctionName3("Algo");
+$cuatro = $clase->FunctionName4("TXT");
 
 ?>
