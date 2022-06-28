@@ -2,5 +2,7 @@
 
 **Mi primero repositorio**
 
-### Archivos
+### Info
+
+Se firma el commit con gpg
 
